@@ -1,7 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
 import { lazy, useEffect } from 'react';
-import { ThreeDots } from 'react-loader-spinner';
 
 import Layout from './Layout/Layout';
 import Home from 'pages/Home';
@@ -10,9 +9,9 @@ import { PrivateRoute } from './PrivateRoute';
 import { refreshUser } from 'redux/Auth/operations';
 import { selectIsRefreshing } from 'redux/Auth/selector';
 
-const RegisterPage = lazy(() => import('pages/RegisterPage'));
-const LoginPage = lazy(() => import('pages/LoginPage'));
-const ContactsPage = lazy(() => import('pages/ContactsPage'));
+const RegisterPage = lazy(() => import('pages/Register'));
+const LoginPage = lazy(() => import('pages/Login'));
+const ContactsPage = lazy(() => import('pages/Contacts'));
 
 export const App = () => {
   const dispatch = useDispatch();

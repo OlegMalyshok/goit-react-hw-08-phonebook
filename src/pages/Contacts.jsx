@@ -1,7 +1,7 @@
 import { Container, Title } from 'components/AuthForm/AuthForm.styled';
-import ContactForm from 'components/AuthForm/ContactForm';
-import ContactList from 'components/ContactList/ContactList';
-import Filter from 'components/Filter/Filter';
+import ContactForm from 'components/AuthForm/PhonebookContactForm';
+import ContactList from 'components/PhonebookContactList/PhonebookContactList';
+import Filter from 'components/PhonebookFilter/PhonebookFilter';
 
 const ContactsPage = () => {
   return (
