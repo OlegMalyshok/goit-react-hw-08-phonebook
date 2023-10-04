@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 
 import { Button, Form, Input, Label } from './AuthForm.styled';
-import { logIn } from 'redux/Auth/operations';
+import { logIn } from 'redux/Auth/authOperations';
 
 export const LoginForm = () => {
   const dispatch = useDispatch();

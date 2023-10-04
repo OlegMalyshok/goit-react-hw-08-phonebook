@@ -1,7 +1,7 @@
 import { Button } from 'components/PhonebookContactList/PhonebookContactList.styled';
 import { useDispatch, useSelector } from 'react-redux';
 import { Greetings, UserMenuContainer } from './UserMenu.styled';
-import { logOut } from 'redux/Auth/operations';
+import { logOut } from 'redux/Auth/authOperations';
 import { selectUser } from 'redux/Auth/selector';
 
 const UserMenu = () => {

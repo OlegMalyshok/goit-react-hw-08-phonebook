@@ -6,7 +6,7 @@ import Layout from './Layout/Layout';
 import Home from 'pages/Home';
 import { RestrictedRoute } from './RestrictedRoute';
 import { PrivateRoute } from './PrivateRoute';
-import { refreshUser } from 'redux/Auth/operations';
+import { refreshUser } from 'redux/Auth/authOperations';
 import { selectIsRefreshing } from 'redux/Auth/selector';
 
 const RegisterPage = lazy(() => import('pages/Register'));
