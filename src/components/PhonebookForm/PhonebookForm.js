@@ -2,7 +2,7 @@ import { Formik } from 'formik';
 import { StyledForm, StyledField, StyledError } from './PhonebookForm.styled';
 import * as Yup from 'yup';
 import { useDispatch } from 'react-redux';
-import { addContact } from 'redux/operations';
+import { addContact } from 'redux/contacts/operations';
 
 const schema = Yup.object().shape({
   name: Yup.string()
