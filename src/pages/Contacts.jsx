@@ -6,7 +6,7 @@ import Filter from 'components/PhonebookFilter/PhonebookFilter';
 const ContactsPage = () => {
   return (
     <Container>
-      <Title>Phonebook</Title>
+      <Title>Phonebook form</Title>
       <ContactForm />
       <Title>Contacts</Title>
       <Filter />
